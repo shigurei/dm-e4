@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<math.h>
 
 int main()
 {
@@ -15,7 +14,7 @@ int main()
 	for(int i = 1; i < 4; i++)
 	{
 		num = rand();
-		if(num % 2 == 0)
+		if( % 2 == 0)
 		{
 			printf("Round %d: Heads\n",i);
 			heads++;
