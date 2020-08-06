@@ -9,7 +9,6 @@ int main()
   
   
   
-  
   printf("Tossing a coin...");
   for(int i = 0; i < 3; i++)
   {
