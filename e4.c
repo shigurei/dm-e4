@@ -13,8 +13,8 @@ int main()
 	printf("Tossing a coin...\n");
 	for(int i = 1; i < 4; i++)
 	{
-		num = rand();
-		if( % 2 == 0)
+		
+		if(rand() % 2 == 0)
 		{
 			printf("Round %d: Heads\n",i);
 			heads++;
