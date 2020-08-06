@@ -5,7 +5,6 @@ int main()
 {
   int num, heads = 0, tails = 0;
   char arr[8];
-  
   printf("Who are you?/n");
   scanf("%s",arr);
   printf("Hello, %s!\n",arr);
