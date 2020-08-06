@@ -4,6 +4,7 @@
 int main()
 {
 	int num, heads = 0, tails = 0;
+
 	char arr[8];
 	printf("Who are you?/n");
 	scanf("%s",arr);
@@ -23,6 +24,12 @@ int main()
 		}
 	}
 	printf("Heads: %d, Tails: %d\n",heads,tails);
+	if(heads > tails)
+	{
+		printf("You won.\n");
+	}else{
+		printf("You lost.\n"); 
+	}
 
 	return 0;
 }
