@@ -27,7 +27,7 @@ int main()
   {
     printf("You won.\n");
   }else{
-    printf("You lost.\n");  
+    printf("You lost.\n"); 
   }
   
   return 0;
