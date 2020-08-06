@@ -5,10 +5,6 @@ int main()
 {
   int num, heads = 0, tails = 0;
   
-  
-  
-  
-  
   printf("Tossing a coin...");
   for(int i = 0; i < 3; i++)
   {
