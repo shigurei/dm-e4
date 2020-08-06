@@ -3,9 +3,14 @@
 
 int main()
 {
-int num, heads = 0, tails = 0;
+  int num, heads = 0, tails = 0;
+  char arr[8];
+  
+  printf("Who are you?/n");
+  scanf("%s",arr);
+  printf("Hello, %s!\n",arr);
 
-printf("Tossing a coin...");
+  printf("Tossing a coin...");
   for(int i = 0; i < 3; i++)
   {
     num = rand();
