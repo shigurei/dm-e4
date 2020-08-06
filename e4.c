@@ -6,12 +6,12 @@ int main()
 	int num, heads = 0, tails = 0;
 
 	char arr[8];
-	printf("Who are you?/n");
+	printf("Who are you?");
 	scanf("%s",arr);
 	printf("Hello, %s!\n",arr);
 
-	printf("Tossing a coin...");
-	for(int i = 0; i < 3; i++)
+	printf("Tossing a coin...\n");
+	for(int i = 1; i < 4; i++)
 	{
 		num = rand();
 		if(num % 2 == 0)
